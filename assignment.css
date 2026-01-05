@@ -434,3 +434,7 @@
     padding: var(--spacing-sm);
   }
 }
+/* my code */
+  .my-design h1 {
+  color: red;
+  }
