@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 .design-size {
   /* ✏️ EDIT: Adjust width and height to match your design dimensions.
      Examples:
@@ -25,10 +26,22 @@
 */
 
 .my-design {
+  background-color: rgb(0, 63, 158);
   /* ✏️ Delete this sample and add your design rules here */
   h1 {
-    color: green;
+    color: rgb(177, 0, 0);
     font-size: 88px;
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-family: "Oswald", cursive, sans-serif;
+    text-align: center;
+  }
+  h3 {
+    margin-left: 40px;
+  }
+  ul {
+    margin-left: 40px;
+    text-decoration: none;
+  }
+  li:hover {
+text-decoration: underline;
   }
 }
